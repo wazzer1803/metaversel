@@ -11,7 +11,7 @@ const About = () => (
    <TypingText title="| About Metaversus " textStyles="text-center"/>
    
    <motion.p variants={fadeIn('up','tween',0.2,1)} className='mt-[8px] font-normal sm:text-[32px] text-[20px]text-center text-gray-500'>
-   <span className='font-extrabold text-white'>
+   <span className='font-extrabold text-black'>
   Kopite Madness    </span>
 
     is a new thing in the future, where you can enjoy the virtual pitch by feeling like it's really real, you can feel what you feel in this era, because this is really the 
