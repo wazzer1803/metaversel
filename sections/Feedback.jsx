@@ -14,10 +14,13 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
     >
-      <motion.div
+{/*       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
+        
+      </motion.div> */}
+      <div>
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
@@ -32,7 +35,7 @@ const Feedback = () => (
           “We created our own story and history and didn't try to do what our wonderful dads and grandfathers did with this club.
           The challenge is to stay cool enough to handle the pressure at the moment to succeed in the future.To be successful, you need results in a row. You can’t win, lose, win, lose.”
         </p>
-      </motion.div>
+      </div>
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
