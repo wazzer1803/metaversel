@@ -19,14 +19,15 @@ const Feedback = () => (
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="relative flex-1 flex justify-center items-center"
+        className="relative flex-col flex justify-center items-center"
       >
         <img
           src="klopp.jpg"
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
+       <h1 className="text-black font-bold">The Gaffer</h1>
+        <h2 className="text-black font-bold">Jurgen Klopp</h2>
 
       </motion.div>
     </motion.div>
