@@ -26,8 +26,8 @@ const Feedback = () => (
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-       <h1 className="text-black font-bold text-20px">The Gaffer</h1>
-        <h2 className="text-black font-italic text-18px">Jurgen Klopp</h2>
+       <h1 className="text-black font-bold text-[20px]">The Gaffer</h1>
+        <h2 className="text-black font-italic text-[18px]">Jurgen Klopp</h2>
 
       </motion.div>
     </motion.div>
