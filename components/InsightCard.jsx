@@ -6,8 +6,8 @@ const InsightCard = ({imgUrl,title,subtitle}) => (
 <img src={imgUrl} alt="plant" className='md:w-[270px] w-full h-[200px] rounded-[32px] object-cover'/>
  <div className="w-full flex justify-between items-center">
 <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-<h4 className="font-extrabold text-white lg:text-[42px] text-[26px]">{title}</h4>
-<p className="mt-[16px] font-normal lg:text-[20px] text-[16px] text-secondary-white">{subtitle}</p>
+<h4 className="font-extrabold text-black lg:text-[42px] text-[26px]">{title}</h4>
+<p className="mt-[16px] font-normal lg:text-[20px] text-[16px] text-gray-500">{subtitle}</p>
 </div>
 <div className="lg:flex hidden items-center justify-center rounded-full border-white border-[1px] bg-transparent w-[100px] h-[100px]">
   <img src="arrow.svg" alt="arrow" className="w-[40px] h-[40px]"/>
