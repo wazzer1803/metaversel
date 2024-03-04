@@ -77,7 +77,7 @@ const Feedback = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
     >
-      <motion.div
+{/*       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
@@ -96,8 +96,10 @@ const Feedback = () => (
           useful for today's work, or can be called web 3.0. by using
           metaverse you can use it as anything”
         </p> */}
-        yes
-      </motion.div>
+{/*         yes
+      </motion.div> */} */}
+    <p className="text-black font-bold"
+      >Yess</p>
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
