@@ -19,7 +19,7 @@ const World = () => (
     <img src="people-02.png"alt="p2"className="w-full h-full "/>
     </div>
     <div className="absolute  left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-    <img src="people-03.png"alt="p3"className="w-full h-full "/>
+   
 
      </div>
     < div className='absolute top-72 left-[18%] w-[100px] h-[100px] p-[2px] rounded-lg bg-[#5d6680]'>
